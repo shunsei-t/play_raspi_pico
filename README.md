@@ -17,6 +17,5 @@ rp2040の中にあるものは基本的に動きます。
 # ピン配置
 https://akizukidenshi.com/download/ds/raspberry/pico-datasheet.pdf
 秋月のデータシートより
-- 3V3_EX
-	使う時は100kΩかませて、VSYSとつなぐと書いてあるのでそうする
+- 3V3
 - UART
