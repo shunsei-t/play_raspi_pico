@@ -19,3 +19,12 @@ https://akizukidenshi.com/download/ds/raspberry/pico-datasheet.pdf
 秋月のデータシートより
 - 3V3
 - UART
+# 不具合
+仮想ドライブは開くけど、COMポートが認識しなくなっていました。
+デバイスマネージャーのCOMポートを確認すると、RP2 Bootに注意マークが。
+
+https://bokunimo.net/blog/raspberry-pi/1460/
+こちらのサイトを参考に、.uf2ファイルをダウンロードし、
+RaspiPocoのドライブに投げると、色々書き代わり認識するようになりました。
+
+その後ArduinoIDEでプログラムをアップロードすると勝手にファームを書き換えて、アップロードできました。
